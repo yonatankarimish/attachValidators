@@ -1,0 +1,14 @@
+*.class
+
+# BlueJ files
+*.ctxt
+
+*.iml
+
+
+.idea/
+
+bower_components/
+
+node_modules/
+

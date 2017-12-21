@@ -1,0 +1,34 @@
+{
+  "name": "attachValidators",
+  "homepage": "https://github.com/yonatankarimish/attach-validators",
+  "authors": [
+    "Yonatan Alon <yonatankarimish@gmail.com>"
+  ],
+  "description": "validate non input elements",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "validate",
+    "grid",
+    "ui-grid",
+    "input",
+    "validator",
+    "backbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "jquery": "^3.1.1",
+    "angular-ui-grid": "^4.0.2"
+  },
+  "resolutions": {
+    "angular": "^1.6.2"
+  }
+}

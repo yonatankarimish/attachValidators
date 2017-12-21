@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Element Validators</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.min.js"></script>
+    <script src="sources/app.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-ui-grid/ui-grid.min.css">
+    <link rel="stylesheet" href="resources/main.css">
+</head>
+<body ng-app="app" ng-controller="appController as ctrl">
+    <form name="ctrl.aForm">
+        <p bb-validating ng-model="ctrl.p1" name="p1">{{ctrl.p1}}</p>
+        <p bb-validating ng-model="ctrl.p2" name="p2">{{ctrl.p2}}</p>
+        <p bb-validating ng-model="ctrl.p3" name="p3">{{ctrl.p3}}</p>
+
+        <span>{{ctrl.aForm.p1.$valid}}</span>
+        <span>{{ctrl.aForm.p2.$valid}}</span>
+        <span>{{ctrl.aForm.p3.$valid}}</span>
+    </form>
+</body>
+</html>
